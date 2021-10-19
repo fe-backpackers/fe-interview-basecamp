@@ -2,7 +2,9 @@
 
 ## 결론
 
-- this는 함수가 호출되는 방식에 따라 다르게 결정됩니다. 
+- this는 자신이 속한 객체 또는 자신이 생성할 인스턴스를 가리키는 자기 참조 변수이다.
+- 단, this가 가리키는 값, 즉 this 바인딩은 함수가 호출되는 방식에 따라 동적으로 결정된다. 또한 strict mode 역시 this 바인딩에 영향을 준다.
+(바인딩이란 식별자와 값을 연결하는 과정. 예로 변수 선언은 변수 이름(식별자)와 확보된 메모리 공간의 주소를 바인딩 하는 것이다. )
 
 ## 설명
 
@@ -75,14 +77,14 @@ Apply 메서드는 함수를 실행하고, 첫 번째 인자에 this를 바인�
 
 ## 요약
 
-javascript에서 this는 함수가 호출되는 방식에 따라 다르게 결정되며 일반 함수일 경우, 메서드 내부일 경우, new를 사용하여 생성자 함수를 사용할 경우, call/Apply,Bind 메서드를 사용할 경우 다릅니다.
+javascript에서 this는 함수가 호출되는 방식에 따라 다르게 결정되며 일반 함수일 경우, 메서드 내부일 경우, new를 사용하여 생성자 함수를 사용할 경우, call,Apply,Bind 메서드를 사용할 경우 다릅니다.
 
 ## Further Stemp
 
 - 실행 컨텍스트
 - 프로토타입, 프로토타입 상속
 - new 연산자, 생성자
-- .call, .apply, .bind
+- call, apply, bind 메서드
 
 ## Reference
 
@@ -91,3 +93,4 @@ javascript에서 this는 함수가 호출되는 방식에 따라 다르게 결�
 -[http://frontendinterviewhandbook.com/kr/javascript-questions/](http://frontendinterviewhandbook.com/kr/javascript-questions/)   
 -[https://velog.io/@danmin20/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-this-%EB%B0%94%EC%9D%B8%EB%94%A9%EC%9D%B4%EB%9E%80](https://velog.io/@danmin20/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-this-%EB%B0%94%EC%9D%B8%EB%94%A9%EC%9D%B4%EB%9E%80)   
 -[https://stonefree.tistory.com/68](https://stonefree.tistory.com/68)(백틱)   
+-모던 자바스크립트 Deep Dive
