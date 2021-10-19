@@ -17,6 +17,8 @@ CORS는 Cross Origin Resource Sharing의 약자로,
 
 ## 요약
 
+CORS는 웹 클라이언트에서 다른 Origin으로 데이터를 요청하는 경우가 잦아짐에 따라 만들어진 교차 출처 자원에 대한 브라우저 정책입니다.
+
 ## 번외) 서로 다른 Origin이라고 하셨는데 Origin이 뭔데요?
 
 Origin은 fetch요청이 시작되는 주소정보로, 경로정보 등을 포함하지 않고 서버이름만 포함하는 URI의 일부입니다.
