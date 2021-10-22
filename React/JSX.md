@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 # JSX란?
 
 ## 결론
 
 - 자바스크립트 확장 문법(JavaScript Syntax Extension)으로 리액트에서 UI를 엘리먼트 단위로 생성하기 위해 사용하는 문법입니다.
-=======
-# JSX
-
-## 결론
-
-- JavaScript Syntax Extension으로 리액트에서 UI를 엘리먼트 단위로 생성하기 위해 사용하는 문법입니다.
->>>>>>> 1ca2274 (React - JSX)
 
 ## 설명
 
@@ -22,11 +14,7 @@
 
 - JSX는 React Element를 생성하여 VDOM을 쉽게 컨트롤하기 위해 고안된 문법으로, 렌더링 되는 마크업과 JS에 관한 로직을 컴포넌트 내에서 컨트롤할 수 있습니다.
 
-<<<<<<< HEAD
 ## 레퍼런스
-=======
-## Reference
->>>>>>> 1ca2274 (React - JSX)
 
 - https://www.youtube.com/watch?v=PN_WmsgbQCo&t=441s
 - https://velog.io/@bigsaigon333/Virtual-DOM
