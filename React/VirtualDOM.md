@@ -1,4 +1,4 @@
-# VirtualDOM
+# VirtualDOM이란?
 
 ## 결론
 
