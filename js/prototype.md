@@ -3,7 +3,7 @@
 ## 결론
 
 - 모든 JS 객체는 다른 객체를 참조하는 내부 프로퍼티를 가지고 있는데, 이 참조 대상 객체를 프로토타입이라고 합니다.
-- 프로토타입 객체는 메서드와 속성을 상속하는 **템플릿** **객체** 역할을 수행합니다.
+- 프로토타입 객체는 **메서드와 속성을 상속하는 템플릿 객체** 역할을 수행합니다.
 
 ## 설명
 
@@ -14,7 +14,7 @@
 
 ## 요약
 
-- 프로토타입이란 메서드와 속성을 상속하는 **템플릿** **객체** 와 같은 역할을 수행하는 객체를 의미하며, 모든 객체는 자신의 프로토타입을 참조하는 내부 프로퍼티를 가지고 있습니다.
+- 프로토타입이란 **메서드와 속성을 상속하는 템플릿 객체** 와 같은 역할을 수행하는 객체를 의미하며, 모든 객체는 자신의 프로토타입을 참조하는 내부 프로퍼티를 가지고 있습니다.
 
 ## Further Step
 
@@ -45,3 +45,4 @@
 - [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - [https://velog.io/@bigsaigon333/object-prototype-in-js](https://velog.io/@bigsaigon333/object-prototype-in-js)
+- [Prototype, 그리고 Class](https://tecoble.techcourse.co.kr/post/2021-06-14-prototype/)
