@@ -14,7 +14,7 @@
 
 - 함수 자신이 기억하고 있는 자유 변수가 의도치 않게 변경되는 것을 막는 함수입니다.
 
-## Reference
+## 레퍼런스
 
 - https://opentutorials.org/course/743/6544
 - https://www.youtube.com/watch?v=PVYjfrgZhtU&t=1s

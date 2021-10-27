@@ -14,7 +14,7 @@
 
 - VirtualDOM은 사용자에게 인터렉션에 따른 UI의 갱신을 효율적으로 제공하는 자바스크립트 객체입니다.
 
-## Reference
+## 레퍼런스
 
 - https://www.youtube.com/watch?v=PN_WmsgbQCo&t=441s
 - https://velog.io/@bigsaigon333/Virtual-DOM
