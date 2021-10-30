@@ -24,7 +24,7 @@ const challenge = async() => {
 };
 ```
 
-## await  
+## await   
 wait!! 하는 역할  
 함수 앞에 `async`를 명시해줘야 한다.  
 비동기 로직이 실행되는 동안 함수의 실행을 멈추고 반환을 기다린다.  
