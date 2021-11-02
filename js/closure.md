@@ -6,12 +6,12 @@
 
 ## 설명
 
-- JS에서 모든 함수는 자동적으로 함수가 선언된 `LexicalEnvironment`를 기억하고 있습니다.
-- 함수가 실행되어 함수 본문에서 변수에 접근할 때, 현재 속한 실행 컨텍스트의 `LexicalEnvironment` 에서 변수를 찾아본 후, 변수가 존재하지 않으면 외부 `LexicalEnvironment` , 즉 함수가 선언된 `LexicalEnvironment`를 거슬러 가며 찾기 때문에, 함수가 선언된 환경을 실행시점에 참조할 수 있습니다.
+- JS에서 모든 함수는 자동적으로 함수가 선언된 환경, 즉 `LexicalEnvironment`를 기억하고 있습니다.
+- 함수 실행시 함수 본문에서 변수에 접근할 때, 현재 속한 실행 컨텍스트의 `LexicalEnvironment` 에서 변수를 찾아본 후, 변수가 존재하지 않으면 외부 `LexicalEnvironment` , 즉 함수가 선언된 `LexicalEnvironment`를 거슬러 가며 찾기 때문에, 함수가 선언된 환경을 실행시점에 참조할 수 있습니다.
 
 ## 요약
 
-- 클로저는 선언된 곳의 외부 변수를 기억하고 이에 접근할 수 있는 함수로서, JS에서 모든 함수는 자연적으로 클로져입니다. (주1: 하나의 예외는 new Function syntax 입니다)
+- 클로저는 선언된 곳의 외부 변수를 기억하고 이에 접근할 수 있는 함수입니다.
 
 ## Further Step
 
