@@ -1,0 +1,27 @@
+#결론
+
+브라우저에서 다른 출처의 리소스를 공유하는 방법
+
+
+#설명
+
+
+- 출처란? URI에서 Protocol+Host+ Port
+
+- 동일 출처 정책이란? 브라우저가 API 호출시에 동일 출처 정책을 지키는 것. 다른 출처의 리소스 접근을 금지함
+
+- XSS,XSRF 등의 보안 취약점을 노린 공격 방어가 가능한 장점이 있음. 하지만 우린 다른 출처의 리소스 접근이 필요함
+
+- CORS(Cross ORigin Resource Sharing) 은 SOP의 외부 리소스를 사용하기 위한 예외 조항
+
+- 2가지 방법 존재 : 
+1. simple request(단순 요청 방법) 2. preflight reauest(예비 요청으로 안전한지 판단한 후 본 요청을 보내는 방법)
+
+- CORS 에러 해결 방법
+
+: 위의 방법, CORS 해결해주는 라이브러리 사용, cors 우회방법 
+
+#결론
+
+즉 CORS(Cross Origin Resource sharing)은 브라우저에서 다른 출처의 리소스를 공유하기 위한 방법이다.
+
