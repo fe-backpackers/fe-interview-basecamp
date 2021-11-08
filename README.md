@@ -7,6 +7,7 @@
 - [클로저](./js/closure.md)
 - [프로미스](./js/promise.md)
 - [프로토타입](./js/prototype.md)
+- [모듈](./js/module.md)
 
 ## Network/Browser
 
