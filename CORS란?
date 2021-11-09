@@ -1,0 +1,14 @@
+CORS란?
+Cross-Origin Resources Sharing
+추가 HTTP 헤더를 사용하여, 한 출처에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제
+리소스가 자신의 출처(도메인,프로토콜,포트)와 다를때 교차 출처 HTTP 요청을 실행
+브라우저와 서버 간의 안전한 교차 출처 요청 및 데이터 전송 지원
+-XML HttpRequest와 Fetch API 호출
+-웹폰트(css내 @font-face에서 교차 도메인 폰트 사용시)
+-WebGL 텍스쳐
+-drawImage()를 사용해 캔버스에 그린 이미지/비디오 프레임
+-이미지로부터 추출하는 CSS Shapes
+단순요청:CORS preflight를 트리거하지않는 simple requests
+GET/HEAD/POST
+https://developer.mozilla.org/ko/docs/Web/HTTP/CORS
+
