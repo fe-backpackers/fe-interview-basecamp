@@ -21,8 +21,8 @@
 
 ## 요약
 
-- 이벤트 위임이란 유사하게 제어되는 수많은 요소들이 존재할 때, 공통의 조상에만 이벤트 핸들러를 등록하는 방식으로 요소를 효율적으로 제거하는 기법입니다.
+- 이벤트 위임이란 유사하게 제어되는 수많은 요소들이 존재할 때, 공통의 조상에만 이벤트 핸들러를 등록하는 방식으로 요소를 효율적으로 제어하는 기법입니다.
 
 ## Reference
 
-- https://javascript.info/event-delegation
+- <https://javascript.info/event-delegation>
