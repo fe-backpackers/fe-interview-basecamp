@@ -7,10 +7,17 @@
 - [클로저](./js/closure.md)
 - [프로미스](./js/promise.md)
 - [프로토타입](./js/prototype.md)
+- [arguments 객체](.js/arguments.md)
+- [async-await 구문](.js/async-await-syntax.md)
+- [rest parameter](.js/rest-parameter.md)
 
-## Network/Browser
+## Network
 
 - [cors](./network/cors.md)
+
+## Browser
+
+- [이벤트 위임](./browser/event-delegation.md)
 
 ## React
 
