@@ -10,6 +10,8 @@
 - [arguments 객체](.js/arguments.md)
 - [async-await 구문](.js/async-await-syntax.md)
 - [rest parameter](.js/rest-parameter.md)
+- [this](./js/this.md)
+- [이벤트루프](./js/eventloop.md)
 
 ## Network
 
@@ -22,3 +24,5 @@
 ## React
 
 - [VirtualDOM](./react/VirtualDOM.md)
+- [Flux 패턴](./react/flux.md)
+
