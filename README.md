@@ -25,3 +25,7 @@
 
 - [VirtualDOM](./react/VirtualDOM.md)
 - [Flux 패턴](./react/flux.md)
+
+## General
+
+- [Code Splitting](./general/code-splitting.md)
