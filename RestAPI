@@ -1,0 +1,32 @@
+#결론
+
+REST API란 HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 CRUD Operaion을 적용하는 REST의 원리를 따르는 API를 의미합니다.
+
+#설명
+REST는 HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 CRUD Operaion을 적용하는 것을 의미합니다.
+CRUD Operation과 HTTP METHOD를 대응해 쓰면 Create(POST), Read(GET), Update(PUT), Delete(DELETE) 이렇게 구성됩니다.
+
+REST의 특징은 이렇습니다.
+- server client 구조
+- stateless(무상태)
+- cacheable(캐시 처리 가능)
+- layered system(계층화)
+- uniform interface(인터페이스 일관성)
+
+REST API란 REST의 원리를 따르는 API를 의미합니다.
+REST API에는 규칙이 있습니다.
+1. URI는 동사보다 명사를 , 대문자보다는 소문자를 사용
+2. 마지막에는 슬래시(/)를 포함하지 않음
+3. 언더바 대신 하이폰을 사용
+4. 파일확장자는 URI에 포함하지 않음
+5. 행위를 포함하지 않음
+
+Restful은 REST API의 설계 규칙을 올바르게 지킨 시스템을 의미합니다.
+
+#요약
+
+REST는 HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 CRUD Operaion을 적용하는 것을 의미합니다.
+REST API는 이러한 REST를 따르는 API고, 몇가지 규칙이 있는데 이 설계 규칙을 올바르게 지킨 시스템을 Restful이라고 합니다.
+
+https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80
+http://www.incodom.kr/REST
