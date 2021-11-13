@@ -1,0 +1,26 @@
+#결론
+
+XSS,CSRF는 둘다 웹 취약점을 이용한 공격이다.
+
+#설명
+
+XSS(Cross Site Scripting) 공격자가 웹 사이트에 악성 클라이언트 측 코드를 삽입하여 사용자가 실행하게 하여 공격하는 행위이다.
+보통은 신뢰할 수 없는 소스(ex 웹 요청)을 통해 데이터가 웹 앱에 입력되거나 동적 콘텐츠가 악성 콘텐츠의 유효성을 검사하지 않고 웹 사용자에게 전송될 때 발생한다.
+
+CSRF(XSRF)(Cross-site request forgery)는 웹 사이트 취약점 공격의 하나로, 사용자가 자신의 의지와는 무관하게 공격자가 의도한 행위를 특정 웹사이트에 요청하게 하는 공격을 말한다.
+
+XSS와 CSRF의 차이는 XSS는 공격대상이 주로 클라이언트이고 사용자가 특정 웹사이트를 신용하는 점을 노린 것이라면
+CSRF는 공격 대상이 서버이고 특정 웹사이트가 사용자의 웹 브라우저를 신용하는 점을 노린 것이 차이점이다.
+
+#요약
+
+XSS,CSRF는 둘다 웹 취약점을 이용한 공격이다.
+XSS는 공격자가 웹사이트에 악성 코드를 삽입하여 사용자가 실행하게 하는 공격이고
+CSRF는 공격자가 사용자의 권한을 탈취하여 사용자가 웹사이트에 공격자가 원하는 요청을 하게끔 하는 공격이다.
+
+#references
+
+https://developer.mozilla.org/en-US/docs/Web/Security/Types_of_attacks#cross-site_scripting_xss
+https://tibetsandfox.tistory.com/5
+https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%9A%94%EC%B2%AD_%EC%9C%84%EC%A1%B0
+https://lucete1230-cyberpolice.tistory.com/23
