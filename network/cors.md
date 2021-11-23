@@ -24,7 +24,7 @@
   안전한 요청은 아래의 두가지 조건을 충족하는 요청입니다.
   1. 메서드가 GET 또는 POST
   2. 정해진 헤더만을 가지고 있음
-    `Accept, Accept-Language, Content-Language, Content-type: application/x-www-form-urlencoded, multipart/form-data, text/plain`
+     `Accept, Accept-Language, Content-Language, Content-type: application/x-www-form-urlencoded, multipart/form-data, text/plain`
 - JS에서 안전하지 않은 헤더에 접근하기 위한 방법은?
 - preflight 요청시에 cookie와 같은 credential 정보를 실어서 보내는 방법
 
