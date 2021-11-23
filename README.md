@@ -12,6 +12,8 @@
 - [rest parameter](.js/rest-parameter.md)
 - [this](./js/this.md)
 - [이벤트루프](./js/eventloop.md)
+- [모듈](./js/module.md)
+- [순수함수](./js/pure-function.md)
 
 ## Network
 
