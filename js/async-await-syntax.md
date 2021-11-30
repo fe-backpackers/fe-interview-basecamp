@@ -12,7 +12,9 @@
 
 - `await` 키워드를 붙인 비동기 함수 호출의 경우, 비동기 연산이 성공한 경우에는 `fulfilled` 프로미스의 값을 반환하며, 비동기 연산이 실패한 경우에는 `rejected` 프로미스의 값을 `throw`합니다. 따라서 예외처리 시에 동기함수와 동일하게 try - catch 문을 사용할 수 있습니다.
 
-- `async` 함수는 `Promise`를 반환합니다. 반환된 `Promise`는 `fulfilled` 상태일 때 반환값을 값으로 가집니다. 예외가 발생하면 반환된 `Promise`는 throw 된 예외를 값으로 가지는 `rejected` 프로미스가 됩니다.
+- `async` 함수는 항상 `Promise`를 반환합니다. `async` 함수 내의 return 값은 `Promise`로 감싸져서 반환됩니다.
+
+- 만약 `async` 함수 내에서 예외가 발생하였고 이를 try - catch 문으로 핸들링하지 않았다면, throw 된 예외를 값으로 가지는 `rejected` 프로미스가 반환됩니다.
 
 ## 요약
 
