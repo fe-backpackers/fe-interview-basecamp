@@ -37,3 +37,9 @@ console.log(mult2(1, 2)(3, 4));
 ## 요약
 
 - 커링이란 함수를 값으로 다루면서 인자로 받은 함수를 원하는 시점에 평가시키는 함수입니다.
+
+## Reference
+
+- <https://ko.javascript.info/currying-partials>
+
+- 함수형 프로그래밍과 JavaScript ES6+ 강의: go+curry를 사용하여 더 읽기 좋은 코드로 만들기
