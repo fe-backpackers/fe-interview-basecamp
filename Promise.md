@@ -25,3 +25,7 @@ Pomise는 비동기 처리를 수행할 콜백 함수 resolve, reject를 인수�
 #references
 
 모던 자바스크립트 Deep Dive
+
+#Further steps
+
+프로미스 체이닝
