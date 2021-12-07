@@ -1,8 +1,8 @@
-#결론
+## 결론
 
 Promise는 비동기 처리 상태와 처리 결과를 관리하는 객체이다.
 
-#설명
+## 설명
 
 콜백 함수를 통해 비동기 처리 결과에 대한 후속 처리를 수행하는 것이 콜백헬로 이어지는 위험성이 있었고, 
 에러 처리의 한계의 문제가 있었다.
@@ -22,10 +22,10 @@ Pomise는 비동기 처리를 수행할 콜백 함수 resolve, reject를 인수�
 프로미스는 이를 위한 후속 메서드 then, catch, finally를 제공한다.
 이를 통해, 에러 처리 문제, 콜백 헬의 문제를 해결한다.
 
-#references
+## references
 
 모던 자바스크립트 Deep Dive
 
-#Further steps
+## Further steps
 
 프로미스 체이닝
