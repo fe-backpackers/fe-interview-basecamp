@@ -6,7 +6,7 @@
 
 ## 설명
 
-- 크로스 오리진 요청은 브라우저에서 본 요청이 이뤄지기 전에 preflight 요청을 보내 허가 여부를 물어봅니다.
+- 크로스 오리진 요청은 브라우저에서 본 요청이 이뤄지기 전에 preflight 요청(Method: OPTIONS)을 보내 허가 여부를 물어봅니다.
   - 브라우저는 preflight 요청에 본 요청의 메서드 정보(`Access-Control-Request-Method`)와 본 요청의 헤더 정보(`Access-Control-Request-Headers` )를 담아서 보냅니다.
 - 서버가 해당 크로스 오리진 요청을 허가하는 경우, preflight 요청에 대하여 상태 코드 200, 빈 본문으로 응답을 보냅니다.
   - 응답 헤더에는 허용되는 메서드 목록(`Access-Control-Allow-Methods`), 허용되는 헤더 목록(`Access-Control-Allow-Headers`), 몇 초간 preflight 요청 없이 크로스 오리진 요청을 바로 보낼지에 대한 정보(`Access-Control-Max-Age` )가 담겨있습니다.
